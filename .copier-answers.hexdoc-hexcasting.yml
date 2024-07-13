@@ -1,0 +1,27 @@
+# Changes here will be overwritten by Copier. NEVER EDIT MANUALLY
+# See: https://copier.readthedocs.io/en/stable/configuring/#the-copier-answersyml-file
+_commit: v0.1.11
+_src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
+author: Prismatica
+book_id: boundedfields:boundedfieldsbook
+default_branch: main
+github_repo: boundedfields
+gradle_mod_version_key: modVersion
+hexdoc_mod_plugin_classname: BoundedFieldsModPlugin
+hexdoc_plugin_classname: BoundedFieldsPlugin
+java_lang:
+    ext: java
+    src: java
+java_package: net/boundedfields
+mod_display_name: Bounded Fields
+modid: boundedfields
+multiloader: true
+package_export_root: doc/src/hexdoc_boundedfields/_export
+package_name: hexdoc-boundedfields
+package_slug: hexdoc_boundedfields
+package_src: doc/src/hexdoc_boundedfields
+pages_url: https://prismatica.github.io/boundedfields
+pattern_regex:
+    per_world_value: 'true'
+    regex: make\(\s*"(?P<name>[a-zA-Z0-9_\/]+)",\s*(?:new )?(?:ActionRegistryEntry|OperationAction)\(\s*HexPattern\.fromAngles\(\s*"(?P<signature>[aqweds]+)",\s*HexDir.(?P<startdir>\w+)\)
+pattern_registry: registry/BoundedFieldsPatternRegistry.java
